@@ -7,8 +7,14 @@
 #####                Made by NEOAPPS :)                   ##### 
 ###############################################################
 
-# Important note: This script is meant to be used as a reference for your own bash scripts.
-# You can customize it to fit your needs.
+Important note: This script is meant to be used as a reference for your own bash scripts.
+You can customize it to fit your needs.
 
-# This script contains a variety of aliases and functions to make your bash experience easier.
+This script contains a variety of aliases and functions to make your bash experience easier.
+ ```
+ 
+ How to add to your script?
+ ```sh
+ source eba.sh "$@"
+ # use it :)
  ```
