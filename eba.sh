@@ -244,7 +244,7 @@ confirm() { # usage: confirm "Are you sure to delete this file?" rm file.txt
     if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
         "$@"
     else
-        echo "Operation aborted."
+        echo ""
     fi
 }
 check_space() { # usage: check_space 1000      # checks if there is atleast a gigabyte available
